@@ -43,7 +43,7 @@ export default function ChatGPT() {
 
     const [tokenCounter, setTokenCounter] = useState(false);
     const [showContext, setShowContext] = useState(false);
-    const [detailedResponse, setDetailedResponse] = useState(false);
+    const [detailedResponse, setDetailedResponse] = useState(true);
     const [detailedResponseWithoutLists, setDetailedResponseWithoutLists] = useState(false)
     const [displaySemanticEvaluation, setDisplaySemanticEvaluation] = useState(false)
     const [vectorIndex, setVectorIndex] = useState("helsenorgeartikler");
